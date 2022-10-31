@@ -1,0 +1,38 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <link href="~/lib/twitter-bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="~/CSS/Site.css" rel="stylesheet" />
+</head>
+<body class="container">
+    <h1 class="h1">Welcome to book store Application</h1>
+    @*<h1>@DateTime.Now</h1>
+        <h1> Sum= @(3+5)</h1>
+        @{
+            int a = 8;
+            int b = 20;
+            int c = a * b;
+        }
+        <h1>@c</h1>*@
+
+    <img src="~/images/mintty.2022-09-16_16-36-46.png" class="ss" />
+    <p>This is the home page of your book store applocation.</p>
+    <input type="button" class="btn btn-danger" value="Click me" />
+    <script src="~/lib/jquery/jquery.js"></script>
+</body>
+</html>
+
+
+<script>
+    $(document).ready(function () {
+        alert("page loaded")
+    })
+</script>
